@@ -73,10 +73,19 @@ a {
 }
 
 #infoContainer {
-  flex-flow       : column;
+  /*flex-flow       : column;*/
   align-items     : start;
   justify-content : center;
   max-width       : 480px;
+}
+
+#clockBlock{
+	padding: 20px 10px 10px 15px;
+}
+
+.weatherBlock{
+	margin-right:40px;
+	white-space: nowrap;
 }
 
 #currentTime {
